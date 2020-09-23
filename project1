@@ -1,0 +1,30 @@
+#include <iostream> 
+#include <string>
+#include <fstream>
+#include <iomanip>
+
+using namespace std;
+
+struct Student {
+string ID; //an 8-digit student ID
+string name; //name of the student
+unsigned unitsAttempted; //number of units attempted by the student
+unsigned unitsEarned; //number of units earned by the student
+double gpa; //the grade point average for the student
+};
+
+
+int main()
+{
+  ifstream fin;
+  fin.open("records.csv")
+  
+   while(!fin.eof())
+   {
+      getline(fin, students)
+      
+   }
+   
+  
+  
+}
